@@ -5,9 +5,6 @@ seo:
 ---
 
 ::u-page-hero
-::hero-image{src="/images/panel.webp" alt="Panel"}
-::
-
 #title
 Introducing XyraPanel
 
@@ -38,4 +35,6 @@ Designed for performance, simplicity, and scalability—powered by the community
   ---
   Follow on GitHub
   :::
+#default
+![XyraPanel](/images/panel.webp)
 ::
