@@ -1,19 +1,20 @@
 ---
 seo:
-  title: XyraPanel - Game Server Management Panel
-  description: XyraPanel is an open-source game server management panel built with Nuxt, designed to provide a modern alternative to Pterodactyl.
+  title: XyraPanel - Modern Game Server Management Panel
+  description: XyraPanel is a modern, open-source game server management panel built with Nuxt. Experience enhanced performance, intuitive design, and powerful features for managing your game servers.
 ---
 
 ::u-page-hero
-![Panel](/images/panel.png)
+::hero-image{src="/images/panel.webp" alt="Panel"}
+::
 
 #title
 Introducing XyraPanel
 
 #description
-Pterodactyl fell off, so we built **XyraPanel**.
+A modern, **open-source** game server management panel built with **Nuxt**.
 
-A open-source alternative built on **Nuxt**, powered by the community.
+Designed for performance, simplicity, and scalability—powered by the community.
 
 
 #links
