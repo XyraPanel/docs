@@ -13,7 +13,6 @@ A **open-source** game server management panel built with **Nuxt**.
 
 Designed for performance, simplicity, and scalability. Powered by the community.
 
-
 #links
   :::u-button
   ---
@@ -37,4 +36,23 @@ Designed for performance, simplicity, and scalability. Powered by the community.
   :::
 #default
 ![XyraPanel](/images/panel.png)
+::
+
+::u-page-c-t-a
+---
+title: Ready to get started?
+description: Read the docs, launch XyraPanel, and start managing your servers today.
+orientation: vertical
+links:
+  - label: About Us
+    color: neutral
+    size: xl
+    to: /overview/about
+  - label: GitHub
+    color: neutral
+    variant: outline
+    size: xl
+    icon: simple-icons-github
+    to: https://github.com/xyrapanel
+---
 ::
