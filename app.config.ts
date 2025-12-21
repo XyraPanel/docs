@@ -12,7 +12,7 @@ export default defineAppConfig({
     },
   },
   socials: {
-    discord: 'https://discord.com/invite/NXdctQnMjs',
+    discord: 'https://xyrapanel.com/discord',
   },
   github: {
     url: 'https://github.com/XyraPanel/docs',
@@ -22,18 +22,24 @@ export default defineAppConfig({
     title: 'On this page',
     bottom: {
       title: 'Community',
-      links: [{
-        icon: 'ic:baseline-discord',
-        label: 'Join our Discord',
-        to: 'https://discord.com/invite/NXdctQnMjs',
-        target: '_blank'
-      },
+      links: [
       {
         icon: 'material-icon-theme:github-sponsors',
         label: 'Become a Sponsor',
         to: 'https://ko-fi.com/26bz',
         target: '_blank'
-      }]
+      },
+     {
+        icon: 'material-symbols:groups',
+        label: 'Contributors',
+        to: 'https://github.com/XyraPanel/panel/graphs/contributors',
+        target: '_blank'
+      },{
+        icon: 'ic:baseline-discord',
+        label: 'Join our Discord',
+        to: 'https://xyrapanel.com/discord',
+        target: '_blank'
+      },]
     }
   },
   ui: {
