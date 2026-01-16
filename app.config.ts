@@ -4,11 +4,11 @@ export default defineAppConfig({
     title: 'XyraPanel',
     // Logo configuration
     logo: {
-      alt: '',
+      alt: '/images/logo.png',
       // Light mode
-      light: '',
+      light: '/images/logo.png',
       // Dark mode
-      dark: ''
+      dark: '/images/logo.png'
     },
   },
   socials: {
