@@ -11,4 +11,7 @@ export default defineNuxtConfig({
       description: "Game Server Management Panel Documentation",
     },
   },
+  mcp: {
+    enabled: false,
+  }
 });

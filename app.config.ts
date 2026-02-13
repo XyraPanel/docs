@@ -15,7 +15,7 @@ export default defineAppConfig({
     discord: 'https://xyrapanel.com/discord',
   },
   github: {
-    url: 'https://github.com/XyraPanel/docs',
+    url: 'https://github.com/XyraPanel',
     branch: 'main',
   },
   toc: {
