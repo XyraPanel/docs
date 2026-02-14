@@ -42,7 +42,6 @@ Designed for performance, simplicity, and scalability. Powered by the community.
 ::u-page-section
 ---
 title: Why XyraPanel?
-description: Hover-ready cards that spell out the core reasons builders pick Xyra.
 ---
   :::u-page-grid
     ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-simple-icons-nuxtdotjs"}
@@ -93,23 +92,4 @@ description: Hover-ready cards that spell out the core reasons builders pick Xyr
     Each server runs in its own container with separate credentials and resource caps.
     ::::
   :::
-::
-
-::u-page-c-t-a
----
-title: Ready to get started?
-description: Read the docs, launch XyraPanel, and start managing your servers today.
-orientation: vertical
-links:
-  - label: About XyraPanel
-    color: neutral
-    size: xl
-    to: /overview/about
-  - label: Star on GitHub
-    color: neutral
-    variant: outline
-    size: xl
-    icon: simple-icons-github
-    to: https://github.com/xyrapanel
----
 ::
