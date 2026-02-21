@@ -49,7 +49,7 @@ title: Why XyraPanel?
     Built on the Nuxt Ecosystem
 
     #description
-    Built with Nuxt, Vue, Nitro, and TypeScript.
+    Nuxt, Vue, Nitro, and TypeScript. No legacy stack, no technical debt.
     ::::
 
     ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-shield-check"}
@@ -57,31 +57,23 @@ title: Why XyraPanel?
     Security as a Priority
 
     #description
-    Redis sessions, scoped CORS, rate limiting. Locked down by default.
+    Redis sessions, scoped CORS, per-route rate limiting. Locked down by default.
     ::::
 
-    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-heart-handshake"}
+    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-plug-zap"}
     #title
-    MIT & Open Source Forever
+    Wings Compatible
 
     #description
-    MIT licensed and built for the community.
-    ::::
-
-    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-scaling"}
-    #title
-    Built to Scale
-
-    #description
-    Manage one server or a hundred.
+    Works with your existing Pterodactyl Wings nodes. No daemon changes required.
     ::::
 
     ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-languages"}
     #title
-    Localized and User Friendly
+    Localized by Default
 
     #description
-    Translated by default. User friendly out of the box.
+    Ships with i18n built in. Community translations via Crowdin.
     ::::
 
     ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-container"}
@@ -89,7 +81,74 @@ title: Why XyraPanel?
     Isolated by Design
 
     #description
-    Each server runs in its own container with separate credentials and resource caps.
+    Each game server runs in its own Wings container with separate credentials and resource limits.
+    ::::
+
+    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-clipboard-list"}
+    #title
+    Audit Logging
+
+    #description
+    Every admin and user action is tracked and searchable.
+    ::::
+
+    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-bot"}
+    #title
+    Multi-Captcha Support
+
+    #description
+    Cloudflare Turnstile, reCAPTCHA, or hCaptcha. Pick what fits your setup.
+    ::::
+
+    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-key-round"}
+    #title
+    Scoped API Keys
+
+    #description
+    Set read, write, and delete permissions per resource on each key. Servers, nodes, users, eggs, and more.
+    ::::
+
+    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-mail"}
+    #title
+    Email Template Management
+
+    #description
+    Customize every transactional email from the admin panel. No code changes needed.
+    ::::
+
+    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-terminal"}
+    #title
+    Built-in CLI
+
+    #description
+    Seed, migrate, and configure from the command line without touching the UI.
+    ::::
+
+    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-heart-handshake"}
+    #title
+    Open Source
+
+    #description
+    MIT licensed. Built in public, maintained by the community.
+    ::::
+
+    ::::u-page-card{spotlight class="col-span-2 md:col-span-1 transition hover:-translate-y-1" icon="i-lucide-refresh-cw"}
+    #title
+    Zero-Downtime Restarts
+
+    #description
+    PM2 cluster mode with graceful reload. No dropped connections on process restarts.
     ::::
   :::
 ::
+
+::u-page-section
+---
+title: Get started in seconds
+description: Ubuntu 22.04 / 24.04, run as root.
+---
+
+#default
+```bash
+bash <(curl -fsSL https://xyrapanel.com/install)
+```
