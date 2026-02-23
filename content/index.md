@@ -145,7 +145,7 @@ title: Why XyraPanel?
 ::u-page-section
 ---
 title: Get started in seconds
-description: Ubuntu 22.04 / 24.04, run as root.
+description: Ubuntu 22.04 / 24.04 · Debian 11 / 12 - run as root.
 ---
 
 #default
